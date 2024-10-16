@@ -22,6 +22,41 @@ The **AI-Based Driver Behavior Analysis System** aims to improve road safety by 
   - `📈 Matplotlib` and `Seaborn` for data visualization
 - **Data Sources:** Publicly available datasets on driver behavior or simulated driving data
 
+## 📂 Project Structure
+
+The project follows a well-structured layout to ensure modularity and ease of maintenance:
+
+```
+├── api                 # api code to interact with model
+│   └── models          # deployment ready models (copied from models/models)
+├── config              # project level configurations
+│   └── environments    # environment configurations (ex. dotenv)
+├── deployment          # deployment related files
+│   └── docker          # files for building and managing docker images
+│   └── pipelines       # ci/cd pipelines (if your CI/CD system allows custom directory)
+│   └── scripts         # supporting scripts for building and deploying
+├── docs                # global documentation
+├── infrastructure      # code for managing the project's infrastructure
+├── src                 # source code for model development
+│   ├── data            # scripts for collecting and processing data
+│   ├── datasets        # processed data (ex. medallion architecture)
+│   │   ├── bronze      # raw, unprocessed data
+│   │   ├── gold        # final processed data
+│   │   └── silver      # intermediate processed data
+│   ├── models          # deployment ready models
+│   ├── notebooks       # jupyter notebooks
+│   ├── scripts         # training and testing scripts
+│   │   ├── tests       # scripts for running tests on models
+│   │   └── training    # scripts for training models
+│   └── utils           # utility scripts
+├── ui                  # user interface for interacting with model api
+├── .gitignore          # list of files and/or directories that are not stored in the repository
+├── Makefile            # file to automate common development tasks
+└── README.md           # repository documentation
+```
+> **Credit:** The project structure was inspired by the article ["How to Structure a Machine Learning Project for Optimal MLOps Efficiency"](https://medium.com/@craftworkai/how-to-structure-a-machine-learning-project-for-optimal-mlops-efficiency-0046e15ce033) by Craftwork AI on Medium.
+
+
 ## 🚀 Installation
 
 1. **Clone the repository:**
