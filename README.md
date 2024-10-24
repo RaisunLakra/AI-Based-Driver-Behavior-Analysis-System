@@ -26,7 +26,7 @@ The **AI-Based Driver Behavior Analysis System** aims to improve road safety by 
 The driving behavior data used in this project was obtained from the **Driving Behavior Dataset** by Yuksel, Asim Sinan; Atmaca, Şerafettin (2020), available at Mendeley Data.
 
 ### Citation:
-Yuksel, Asim Sinan; Atmaca, Şerafettin (2020), “Driving Behavior Dataset”, Mendeley Data, V2, doi: 10.17632/jj3tw8kj6h.2
+> Yuksel, Asim Sinan; Atmaca, Şerafettin (2020), “Driving Behavior Dataset”, Mendeley Data, V2, doi: 10.17632/jj3tw8kj6h.2
  
 ## 📂 Project Structure
 
