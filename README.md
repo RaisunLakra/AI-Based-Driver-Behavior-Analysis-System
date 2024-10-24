@@ -22,6 +22,12 @@ The **AI-Based Driver Behavior Analysis System** aims to improve road safety by 
   - `📈 Matplotlib` and `Seaborn` for data visualization
 - **Data Sources:** Publicly available datasets on driver behavior or simulated driving data
 
+## 📊 Data Source
+The driving behavior data used in this project was obtained from the **Driving Behavior Dataset** by Yuksel, Asim Sinan; Atmaca, Şerafettin (2020), available at Mendeley Data.
+
+### Citation:
+Yuksel, Asim Sinan; Atmaca, Şerafettin (2020), “Driving Behavior Dataset”, Mendeley Data, V2, doi: 10.17632/jj3tw8kj6h.2
+ 
 ## 📂 Project Structure
 
 The project follows a well-structured layout to ensure modularity and ease of maintenance:
